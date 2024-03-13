@@ -1,0 +1,68 @@
+@charset "utf-8";
+*{
+	padding: 0px;
+	margin:0px;
+	box-sizing: border-box;
+}
+body{
+	margin:0;
+	padding:0;
+	background-color: #000000;
+}
+
+	.main-header {
+   height: 100px;
+    width: 100%;
+    background-color:#000000;
+    font-style:bold;
+    font-weight:normal;
+	text-align: left;
+	text-decoration: none;
+	padding: 20px;
+    font-size:x-large;
+		
+}
+
+.navbar ul li  {
+	
+    
+    list-style-type: none;
+    padding-left: 30px;
+    padding-right: 30px;
+	padding-top:40px;
+	margin-bottom:0px;
+	text-align: right;
+    color: #FFF7D4;
+	font-family: meladu rose;
+    
+}
+.nav-link{
+	text-decoration:none; 
+	color: #ffcc00;
+	transition: 1ms ease;
+}
+.nav-link:hover{
+	color:#ffffff;
+}
+.banner{
+
+  background-image: url(images/home\ background.jpg);
+  padding-left: 100px;
+  padding-top: 300px;
+  color: #ffffff;
+  height: 1000px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+    
+}
+.aboutbanner{
+	background-color: #000000;
+	color: #ffffff;
+	text-align: center;
+	padding: 100px;
+}
+.cardabout{
+	height: auto;
+	width: 150px;
+}
